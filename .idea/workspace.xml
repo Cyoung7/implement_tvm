@@ -4,6 +4,7 @@
     <list default="true" id="8c2514ee-953f-4827-b2d0-f0775c23a758" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,25 +14,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/implement_tvm$compliling_deep_learning_model.coverage" NAME="compliling_deep_learning_model Coverage Results" MODIFIED="1534772581717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$star_tvm.coverage" NAME="star_tvm Coverage Results" MODIFIED="1534591506071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/compiling_model" />
     <SUITE FILE_PATH="coverage/implement_tvm$main.coverage" NAME="main Coverage Results" MODIFIED="1534649125947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/compiling_model" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="compliling_deep_learning_model.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="compliling_deep_learning_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="376">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <element signature="e#22#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ndarray.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/ndarray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_runtime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/contrib/graph_runtime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -68,8 +91,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="412" />
-    <option name="y" value="68" />
+    <option name="x" value="734" />
+    <option name="y" value="81" />
     <option name="width" value="1220" />
     <option name="height" value="1012" />
   </component>
@@ -98,6 +121,13 @@
               <item name="tvm_handson" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="implement_tvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="implement_tvm" type="462c0819:PsiDirectoryNode" />
+              <item name="tvm_handson" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -123,7 +153,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.compliling_deep_learning_model">
+    <configuration name="compliling_deep_learning_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="implement_tvm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tvm_handson/tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="implement_tvm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,9 +214,11 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.star_tvm" />
+      <item itemvalue="Python.compliling_deep_learning_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.compliling_deep_learning_model" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.star_tvm" />
       </list>
@@ -187,7 +238,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="412" y="68" width="1220" height="1012" extended-state="0" />
+    <frame x="734" y="81" width="1220" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -195,7 +246,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4427313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44211686" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19836065" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -203,7 +254,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39867842" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39801544" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -221,7 +272,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -244,26 +302,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tvm_handson/compiling_model/nnvm_quick_tart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding>
-            <element signature="e#889#907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tvm_handson/compiling_model/star_tvm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
-          <folding>
-            <element signature="e#281#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/numpy/testing/nose_tools/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26800">
@@ -455,17 +493,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py">
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/contrib/graph_runtime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="160">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/ndarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
