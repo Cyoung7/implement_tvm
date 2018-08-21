@@ -26,12 +26,16 @@ s[B].bind(xo, tvm.thread_axis('blockIdx.x'))
 s[B].bind(xi, tvm.thread_axis("threadIdx.x"))
 # print(tvm.lower(s, [A, B], simple_mode=True))
 
+# ##############################################
 # Reduction Factoring and Parallelization
 s = tvm.create_schedule(B.op)
 ko, ki = s[B].split(B.op.reduce_axis[0], factor=16)
 # print('yuan:')
 # print(tvm.lower(s, [A, B], simple_mode=True))
 # 被分解的维度编程了BF的第一维
+# 这句执行完 s[B].op.reduce_axis 从
+# [iter_var(k, Range(min=0, extent=m))] --> [iter_var(k.inner.v, Range(min=0, extent=16))]
+
 BF = s.rfactor(B, ki)
 # print('xian:')
 # print(tvm.lower(s, [A, B], simple_mode=True))
@@ -71,7 +75,7 @@ output = tvm.compute((n - 2, n - 2),
                      lambda i, j: tvm.sum(Input[i + di, j + dj] * Filter[di, dj],
                                           axis=[di, dj]), name='output')
 s = tvm.create_schedule(output.op)
-print(tvm.lower(s, [Input, Filter, output], simple_mode=True))
+# print(tvm.lower(s, [Input, Filter, output], simple_mode=True))
 
 # Define General Commutative Reduction Operation
 n = 3
@@ -84,8 +88,20 @@ k = tvm.reduce_axis((0, m), name='k')
 B = tvm.compute((n,), lambda i: product(A[i, k], axis=k), name='B')
 
 s = tvm.create_schedule(B.op)
+
+# GPU
+# bx, tx = s[B].split(B.op.axis[0], factor=64)
+# s[B].bind(bx, tvm.thread_axis('blockIdx.x'))
+# s[B].bind(tx, tvm.thread_axis('threadIdx.x'))
+# f = tvm.build(s, [A, B], 'cuda')
+# a = tvm.nd.array(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).astype(A.dtype), ctx)
+# b = tvm.nd.array(np.zeros((n,), dtype=B.dtype),ctx)
+# f(a, b)
+# print(b.asnumpy())
+
+# CPU
 f = tvm.build(s, [A, B], 'llvm')
-a = tvm.nd.array(np.ndarray([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).astype(A.dtype), ctx)
-b = tvm.nd.array(np.zeros((n,), dtype=B.dtype), ctx)
+a = tvm.nd.array(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).astype(A.dtype), tvm.cpu())
+b = tvm.nd.array(np.zeros((n,), dtype=B.dtype), tvm.cpu())
 f(a, b)
 print(b.asnumpy())
