@@ -74,11 +74,18 @@ s = tvm.create_schedule(output.op)
 print(tvm.lower(s, [Input, Filter, output], simple_mode=True))
 
 # Define General Commutative Reduction Operation
-n = tvm.var('n')
-m = tvm.var('m')
+n = 3
+m = 3
 product = tvm.comm_reducer(lambda x, y: x * y,
                            lambda t: tvm.const(1, dtype=t), name='product')
 
 A = tvm.placeholder((n, m), name='A')
 k = tvm.reduce_axis((0, m), name='k')
 B = tvm.compute((n,), lambda i: product(A[i, k], axis=k), name='B')
+
+s = tvm.create_schedule(B.op)
+f = tvm.build(s, [A, B], 'llvm')
+a = tvm.nd.array(np.ndarray([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).astype(A.dtype), ctx)
+b = tvm.nd.array(np.zeros((n,), dtype=B.dtype), ctx)
+f(a, b)
+print(b.asnumpy())
