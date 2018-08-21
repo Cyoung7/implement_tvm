@@ -11,7 +11,7 @@ num_class = 1000
 image_shape = (3, 224, 224)
 data_shape = (batch_size,) + image_shape
 out_shape = (batch_size, num_class)
-
+# net:Symbol
 net, params = nnvm.testing.resnet.get_workload(num_layers=18, batch_size=batch_size,
                                                image_shape=image_shape)
 # 输出网络的定义
@@ -20,6 +20,7 @@ print(net.debug_str())
 # 编译
 opt_level = 3
 target = tvm.target.cuda()
+# graph:Graph lib:Module params:dict()
 with nnvm.compiler.build_config(opt_level=opt_level):
     graph, lib, params = nnvm.compiler.build(net, target, shape={'data': data_shape},
                                              params=params)
@@ -28,11 +29,13 @@ with nnvm.compiler.build_config(opt_level=opt_level):
 ctx = tvm.gpu()
 data = np.random.uniform(-1, 1, size=data_shape).astype(np.float32)
 # 创建一个module
+# module:GraphModule
 module = graph_runtime.create(graph, lib, ctx)
 module.set_input('data', data)
 module.set_input(**params)
 
 module.run()
+# out:tvm.NDarray
 out = module.get_output(0, tvm.nd.empty(out_shape))
 print(out.asnumpy().flatten()[0:10])
 
