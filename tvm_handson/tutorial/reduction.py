@@ -24,7 +24,7 @@ xo, xi = s[B].split(B.op.axis[0], factor=32)
 # bind the rows of B to GPU threads.
 s[B].bind(xo, tvm.thread_axis('blockIdx.x'))
 s[B].bind(xi, tvm.thread_axis("threadIdx.x"))
-# print(tvm.lower(s, [A, B], simple_mode=True))
+print(tvm.lower(s, [A, B], simple_mode=True))
 
 # ##############################################
 # Reduction Factoring and Parallelization
@@ -80,8 +80,9 @@ s = tvm.create_schedule(output.op)
 # Define General Commutative Reduction Operation
 n = 3
 m = 3
+# 第一个函数表示聚合的方式,第二个函数表示初始值
 product = tvm.comm_reducer(lambda x, y: x * y,
-                           lambda t: tvm.const(1, dtype=t), name='product')
+                           lambda t: tvm.const(0, dtype=t), name='product')
 
 A = tvm.placeholder((n, m), name='A')
 k = tvm.reduce_axis((0, m), name='k')
