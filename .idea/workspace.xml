@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2514ee-953f-4827-b2d0-f0775c23a758" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tvm_handson/tutorial/reduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/tvm_handson/tutorial/reduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py" beforeDir="false" afterPath="$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/implement_tvm$get_started_with_tvm.coverage" NAME="get_started_with_tvm Coverage Results" MODIFIED="1534816755922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
+    <SUITE FILE_PATH="coverage/implement_tvm$schedule_primitives_in_tvm.coverage" NAME="schedule_primitives_in_tvm Coverage Results" MODIFIED="1534920935214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$compliling_deep_learning_model.coverage" NAME="compliling_deep_learning_model Coverage Results" MODIFIED="1534773445761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$external_tensor_function.coverage" NAME="external_tensor_function Coverage Results" MODIFIED="1534821541902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$intrinsics_math_function.coverage" NAME="intrinsics_math_function Coverage Results" MODIFIED="1534910715317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
@@ -51,7 +53,7 @@
       <file leaf-file-name="scan_recurent_kernel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/scan_recurent_kernel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="424">
               <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -63,8 +65,8 @@
       <file leaf-file-name="intrinsics_math_function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/intrinsics_math_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="587">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -74,7 +76,14 @@
       </file>
       <file leaf-file-name="schedule_primitives_in_tvm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1586">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="intrin.py" pinned="false" current-in-tab="false">
@@ -89,8 +98,8 @@
       <file leaf-file-name="schedule.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/schedule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="440" column="44" selection-start-line="440" selection-start-column="44" selection-end-line="440" selection-end-column="44" />
+            <state relative-caret-position="216">
+              <caret line="486" column="36" selection-start-line="486" selection-start-column="36" selection-end-line="486" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -218,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.intrinsics_math_function">
+  <component name="RunManager" selected="Python.schedule_primitives_in_tvm">
     <configuration name="external_tensor_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="implement_tvm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,25 +242,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/external_tensor_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="get_started_with_tvm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="implement_tvm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tvm_handson/tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,20 +304,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="schedule_primitives_in_tvm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="implement_tvm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tvm_handson/tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.get_started_with_tvm" />
       <item itemvalue="Python.external_tensor_function" />
       <item itemvalue="Python.reduction" />
       <item itemvalue="Python.scan_recurent_kernel" />
       <item itemvalue="Python.intrinsics_math_function" />
+      <item itemvalue="Python.schedule_primitives_in_tvm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.schedule_primitives_in_tvm" />
         <item itemvalue="Python.intrinsics_math_function" />
         <item itemvalue="Python.scan_recurent_kernel" />
         <item itemvalue="Python.reduction" />
         <item itemvalue="Python.external_tensor_function" />
-        <item itemvalue="Python.get_started_with_tvm" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +360,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45302445" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.57915056" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32947233" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32947233" />
       <window_info anchor="bottom" id="Terminal" order="10" />
@@ -395,12 +404,22 @@
           <line>56</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>B.op.axis</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>fcuda.imported_modules</expression-string>
         <language-id>Python</language-id>
@@ -437,17 +456,7 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>B.op.axis</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).astype(A.dtype)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -572,37 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/reduction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="2153" column="31" lean-forward="true" selection-start-line="2153" selection-start-column="31" selection-end-line="2153" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/schedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="440" column="44" selection-start-line="440" selection-start-column="44" selection-end-line="440" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/scan_recurent_kernel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,10 +602,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/reduction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/scan_recurent_kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="486" column="36" selection-start-line="486" selection-start-column="36" selection-end-line="486" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/intrinsics_math_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="587">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -631,7 +640,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
