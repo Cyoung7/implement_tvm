@@ -9,6 +9,7 @@ n = tvm.var('n')
 A = tvm.placeholder((n,), name='A')
 B = tvm.placeholder((n,), name='B')
 # Tensor
+# tvm.compute: Tensor Compute Descript
 C = tvm.compute(A.shape, lambda i: A[i] + B[i], name='C')
 print(type(C))
 

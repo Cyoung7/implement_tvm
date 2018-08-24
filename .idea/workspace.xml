@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c2514ee-953f-4827-b2d0-f0775c23a758" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py" beforeDir="false" afterPath="$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +18,22 @@
     <SUITE FILE_PATH="coverage/implement_tvm$compliling_deep_learning_model.coverage" NAME="compliling_deep_learning_model Coverage Results" MODIFIED="1534773445761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$optimize_conv_gpu.coverage" NAME="optimize_conv_gpu Coverage Results" MODIFIED="1534925136061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$external_tensor_function.coverage" NAME="external_tensor_function Coverage Results" MODIFIED="1534821541902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
+    <SUITE FILE_PATH="coverage/implement_tvm$reduction.coverage" NAME="reduction Coverage Results" MODIFIED="1534901694804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
+    <SUITE FILE_PATH="coverage/implement_tvm$main.coverage" NAME="main Coverage Results" MODIFIED="1534649125947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/compiling_model" />
+    <SUITE FILE_PATH="coverage/implement_tvm$introduction_topi.coverage" NAME="introduction_topi Coverage Results" MODIFIED="1534991503452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$intrinsics_math_function.coverage" NAME="intrinsics_math_function Coverage Results" MODIFIED="1534910715317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$star_tvm.coverage" NAME="star_tvm Coverage Results" MODIFIED="1534591506071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/compiling_model" />
     <SUITE FILE_PATH="coverage/implement_tvm$compute_reduce_with_tuple_inputs.coverage" NAME="compute_reduce_with_tuple_inputs Coverage Results" MODIFIED="1534824302609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
-    <SUITE FILE_PATH="coverage/implement_tvm$reduction.coverage" NAME="reduction Coverage Results" MODIFIED="1534901694804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$scan_recurent_kernel.coverage" NAME="scan_recurent_kernel Coverage Results" MODIFIED="1534907887961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
-    <SUITE FILE_PATH="coverage/implement_tvm$main.coverage" NAME="main Coverage Results" MODIFIED="1534649125947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/compiling_model" />
+    <SUITE FILE_PATH="coverage/implement_tvm$using_external_lib_in_nnvm.coverage" NAME="using_external_lib_in_nnvm Coverage Results" MODIFIED="1534994626667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/compile_dl_model" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="external_tensor_function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/external_tensor_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="227">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#21#31#0" expanded="true" />
               </folding>
@@ -38,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reduction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/reduction.py">
+      <file leaf-file-name="introduction_topi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/introduction_topi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="378">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -50,14 +53,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scan_recurent_kernel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/scan_recurent_kernel.py">
+      <file leaf-file-name="using_external_lib_in_nnvm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/using_external_lib_in_nnvm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="252">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="symbol.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/symbol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_started_with_tvm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_runtime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/contrib/graph_runtime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -65,7 +95,7 @@
       <file leaf-file-name="intrinsics_math_function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/intrinsics_math_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
+            <state relative-caret-position="1764">
               <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -77,8 +107,8 @@
       <file leaf-file-name="schedule_primitives_in_tvm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="-126">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -86,50 +116,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="optimize_conv_gpu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="compliling_deep_learning_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="optimize_conv_gpu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/optimize_conv_gpu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="2310">
+              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intrin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/intrin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/schedule.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="486" column="36" selection-start-line="486" selection-start-column="36" selection-end-line="486" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fromnumeric.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="2153" column="31" selection-start-line="2153" selection-start-column="31" selection-end-line="2153" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="166" column="4" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -153,7 +156,6 @@
         <option value="$PROJECT_DIR$/tvm_handson/compiling_model/main.py" />
         <option value="$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py" />
         <option value="$PROJECT_DIR$/tvm_handson/tutorial/model/get_started_with_tvm.py" />
-        <option value="$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tvm_handson/tutorial/external_tensor_function.py" />
         <option value="$PROJECT_DIR$/tvm_handson/tutorial/reduction.py" />
@@ -161,6 +163,11 @@
         <option value="$PROJECT_DIR$/tvm_handson/tutorial/intrinsics_math_function.py" />
         <option value="$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py" />
         <option value="$PROJECT_DIR$/tvm_handson/tutorial/optimize_conv_gpu.py" />
+        <option value="$USER_HOME$/miniconda3/lib/python3.6/site-packages/topi-0.5.dev0-py3.6.egg/topi/__init__.py" />
+        <option value="$USER_HOME$/miniconda3/lib/python3.6/site-packages/topi-0.5.dev0-py3.6.egg/topi/generic/__init__.py" />
+        <option value="$PROJECT_DIR$/tvm_handson/tutorial/introduction_topi.py" />
+        <option value="$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py" />
+        <option value="$PROJECT_DIR$/tvm_handson/compile_dl_model/using_external_lib_in_nnvm.py" />
       </list>
     </option>
   </component>
@@ -174,9 +181,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="129" />
-    <option name="width" value="1137" />
+    <option name="x" value="353" />
+    <option name="y" value="83" />
+    <option name="width" value="1274" />
     <option name="height" value="905" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -187,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,17 +210,24 @@
               <item name="implement_tvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="implement_tvm" type="462c0819:PsiDirectoryNode" />
               <item name="tvm_handson" type="462c0819:PsiDirectoryNode" />
+              <item name="compile_dl_model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="implement_tvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="implement_tvm" type="462c0819:PsiDirectoryNode" />
+              <item name="tvm_handson" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -231,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.optimize_conv_gpu">
+  <component name="RunManager" selected="Python.using_external_lib_in_nnvm">
     <configuration name="intrinsics_math_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="implement_tvm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,6 +259,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/intrinsics_math_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="introduction_topi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="implement_tvm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tvm_handson/tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/introduction_topi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,44 +302,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="reduction" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="implement_tvm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tvm_handson/tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/reduction.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="scan_recurent_kernel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="implement_tvm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tvm_handson/tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/tutorial/scan_recurent_kernel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="schedule_primitives_in_tvm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="implement_tvm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,20 +321,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="using_external_lib_in_nnvm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="implement_tvm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tvm_handson/compile_dl_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tvm_handson/compile_dl_model/using_external_lib_in_nnvm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.reduction" />
-      <item itemvalue="Python.scan_recurent_kernel" />
       <item itemvalue="Python.intrinsics_math_function" />
       <item itemvalue="Python.schedule_primitives_in_tvm" />
       <item itemvalue="Python.optimize_conv_gpu" />
+      <item itemvalue="Python.introduction_topi" />
+      <item itemvalue="Python.using_external_lib_in_nnvm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.using_external_lib_in_nnvm" />
+        <item itemvalue="Python.introduction_topi" />
         <item itemvalue="Python.optimize_conv_gpu" />
         <item itemvalue="Python.schedule_primitives_in_tvm" />
         <item itemvalue="Python.intrinsics_math_function" />
-        <item itemvalue="Python.scan_recurent_kernel" />
-        <item itemvalue="Python.reduction" />
       </list>
     </recent_temporary>
   </component>
@@ -358,22 +371,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="129" width="1137" height="905" extended-state="0" />
-    <editor active="true" />
+    <frame x="353" y="83" width="1274" height="905" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3101673" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3011583" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32947233" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32947233" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20365296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74217314" visible="true" weight="0.32305196" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3951094" />
+      <window_info id="Structure" order="1" sideWeight="0.2578269" side_tool="true" visible="true" weight="0.32305196" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3951094" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,26 +479,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/graph.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/testing/resnet.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/testing/utils.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/contrib/nvcc.py" />
-    <entry file="file://$PROJECT_DIR$/tvm_handson/compiling_model/nnvm_quick_tart.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/testing/utils.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1351641007/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3380">
-          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/contrib/nvcc.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/graph.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/_ffi/function.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/codegen.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/build_module.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/compiler/build_module.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/_base.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/ndarray.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/testing/resnet.py" />
     <entry file="file://$PROJECT_DIR$/tvm_handson/compiling_model/star_tvm.py" />
@@ -517,13 +509,6 @@
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/contrib/graph_runtime.py" />
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/ndarray.py" />
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/model/get_started_with_tvm.py" />
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1351641007/numpy/random/mtrand.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58107">
@@ -552,28 +537,11 @@
     </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/_ffi/function.py" />
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/tensor.py" />
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="32" column="4" selection-start-line="32" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/schedule.py" />
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/compute_reduce_with_tuple_inputs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/external_tensor_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#21#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,28 +554,28 @@
     </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="44982">
           <caret line="2153" column="31" selection-start-line="2153" selection-start-column="31" selection-end-line="2153" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/intrin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="1638">
           <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="3129">
           <caret line="166" column="4" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/scan_recurent_kernel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="1029">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -617,15 +585,157 @@
     </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/schedule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="10017">
           <caret line="486" column="36" selection-start-line="486" selection-start-column="36" selection-end-line="486" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/reduction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/topi-0.5.dev0-py3.6.egg/topi/generic_op_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <folding>
+            <element signature="e#119#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/topi-0.5.dev0-py3.6.egg/topi/cpp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#41#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/topi-0.5.dev0-py3.6.egg/topi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/topi-0.5.dev0-py3.6.egg/topi/generic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/testing/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#60#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/topi-0.5.dev0-py3.6.egg/topi/generic/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="e#74#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/contrib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/_symbol_internal.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3423">
+          <folding>
+            <element signature="e#114#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/_ctypes/symbol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+          <folding>
+            <element signature="e#202#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/compliling_deep_learning_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/contrib/graph_runtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/intrinsics_math_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
+        <state relative-caret-position="1764">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/external_tensor_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/get_started_with_tvm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/optimize_conv_gpu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/introduction_topi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -634,28 +744,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="-126">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/reduction.py">
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/nnvm-0.8.0-py3.6.egg/nnvm/symbol.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/optimize_conv_gpu.py">
+    <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/using_external_lib_in_nnvm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="252">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
