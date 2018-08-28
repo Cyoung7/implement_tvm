@@ -9,6 +9,9 @@ __pycache__/
 *.params
 *.o
 *.ptx
+*.mlmodel
+*.png
+*.txt
 
 # Distribution / packaging
 .Python
