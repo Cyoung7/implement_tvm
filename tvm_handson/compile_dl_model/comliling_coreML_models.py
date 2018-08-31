@@ -16,7 +16,7 @@ def download(url, path, overwrite=False):
 
 
 model_url = 'https://docs-assets.developer.apple.com/coreml/models/MobileNet.mlmodel'
-model_file = 'mobilenet.mlmodel'
+model_file = './model/mobilenet.mlmodel'
 download(model_url, model_file)
 # now you mobilenet.mlmodel on disk
 mlmodel = cm.models.MLModel(model_file)
@@ -26,7 +26,7 @@ sym,params = nnvm.frontend.from_coreml(mlmodel)
 # load a test image
 from PIL import Image
 img_url = 'https://github.com/dmlc/mxnet.js/blob/master/data/cat.png?raw=true'
-download(img_url, 'cat.png')
+download(img_url, './model/cat.png')
 img = Image.open('cat.png').resize((224, 224))
 image = np.asarray(img)
 image = image.transpose((2,0,1))
