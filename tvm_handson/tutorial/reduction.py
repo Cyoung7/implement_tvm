@@ -24,7 +24,7 @@ xo, xi = s[B].split(B.op.axis[0], factor=32)
 # bind the rows of B to GPU threads.
 s[B].bind(xo, tvm.thread_axis('blockIdx.x'))
 s[B].bind(xi, tvm.thread_axis("threadIdx.x"))
-print(tvm.lower(s, [A, B], simple_mode=True))
+# print(tvm.lower(s, [A, B], simple_mode=True))
 
 # ##############################################
 # Reduction Factoring and Parallelization

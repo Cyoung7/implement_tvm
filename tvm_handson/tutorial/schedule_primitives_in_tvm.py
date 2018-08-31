@@ -75,7 +75,12 @@ print(tvm.lower(s, [A, B, C], simple_mode=True))
 
 # 可以将计算B这一步变到计算C的inner维上去
 s = tvm.create_schedule(C.op)
-s[B].compute_at(s[C], C.op.axis[0])
+
+# # 可以将计算B这一步变到计算C的outer维上去
+# s[B].compute_at(s[C], C.op.axis[0])
+
+# 可以将计算B这一步变到计算C的inner维上去
+s[B].compute_at(s[C], C.op.axis[1])
 print(tvm.lower(s, [A, B, C], simple_mode=True))
 
 # compute_inline
