@@ -12,7 +12,8 @@ __pycache__/
 *.mlmodel
 *.png
 *.txt
-
+*.zip
+*.jpg
 # Distribution / packaging
 .Python
 build/
