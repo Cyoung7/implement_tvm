@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/get_star_with_nnvm.py" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2514ee-953f-4827-b2d0-f0775c23a758" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8c2514ee-953f-4827-b2d0-f0775c23a758" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +35,7 @@
       <file leaf-file-name="using_external_lib_in_nnvm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/using_external_lib_in_nnvm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state>
               <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -50,7 +47,7 @@
       <file leaf-file-name="get_star_with_nnvm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/get_star_with_nnvm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="1197">
               <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
               <folding>
                 <element signature="e#16#36#0" expanded="true" />
@@ -62,7 +59,7 @@
       <file leaf-file-name="deploy_ssd_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/deploy_ssd_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="441">
               <caret line="32" column="44" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -74,8 +71,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state>
+              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -116,19 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scan_recurent_kernel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/scan_recurent_kernel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="schedule_primitives_in_tvm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1806">
+            <state relative-caret-position="1785">
               <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -186,8 +174,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="583" />
-    <option name="y" value="92" />
+    <option name="x" value="617" />
+    <option name="y" value="116" />
     <option name="width" value="1303" />
     <option name="height" value="905" />
   </component>
@@ -209,20 +197,7 @@
             <path>
               <item name="implement_tvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="implement_tvm" type="462c0819:PsiDirectoryNode" />
-              <item name="tvm_handson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="implement_tvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="implement_tvm" type="462c0819:PsiDirectoryNode" />
-              <item name="tvm_handson" type="462c0819:PsiDirectoryNode" />
-              <item name="compile_dl_model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="implement_tvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="implement_tvm" type="462c0819:PsiDirectoryNode" />
-              <item name="tvm_handson" type="462c0819:PsiDirectoryNode" />
-              <item name="compile_dl_model" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="get_sour&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/pycharm_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -378,7 +353,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="92" width="1303" height="905" extended-state="0" />
+    <frame x="617" y="116" width="1303" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -386,13 +361,13 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32947233" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32947233" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43886745" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43886745" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7293578" visible="true" weight="0.32513878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72715575" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.2706422" side_tool="true" visible="true" weight="0.32513878" />
+      <window_info id="Structure" order="1" sideWeight="0.27284428" side_tool="true" visible="true" weight="0.3298969" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34625" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,16 +462,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/get_star_with_nnvm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="e#16#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda2/lib/python2.7/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -634,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorial/schedule_primitives_in_tvm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
+        <state relative-caret-position="1785">
           <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -644,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/using_external_lib_in_nnvm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state>
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -705,7 +670,7 @@
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.4.0-py3.6-linux-x86_64.egg/tvm/contrib/graph_runtime.py" />
     <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/get_star_with_nnvm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
+        <state relative-caret-position="1197">
           <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
           <folding>
             <element signature="e#16#36#0" expanded="true" />
@@ -715,7 +680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/compile_dl_model/deploy_ssd_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="441">
           <caret line="32" column="44" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -723,10 +688,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/NNVMv2_IR_Relay.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
