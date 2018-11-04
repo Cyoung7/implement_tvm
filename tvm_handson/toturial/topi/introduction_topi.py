@@ -52,11 +52,21 @@ with tvm.target.cuda():
 
 # fusing conv
 # fuse topi.nn.conv2d and topi.nn.relu together
+# -----------------------old vision---------------------------
+# data = tvm.placeholder((1, 3, 224, 224))
+# kernel = tvm.placeholder((10, 3, 5, 5))
+# conv = topi.nn.conv2d(data, kernel, strides=1, padding=2)
+# out = topi.nn.relu(conv)
+# with tvm.target.create('cuda'):
+#     # 难道每种操作都有一个专门的调度
+#     sconv = topi.generic.nn.schedule_conv2d_nchw(out)
+#     print(tvm.lower(sconv, [data, kernel], simple_mode=True))
+# ------------------------------------------------------------
+
 data = tvm.placeholder((1, 3, 224, 224))
 kernel = tvm.placeholder((10, 3, 5, 5))
-conv = topi.nn.conv2d(data, kernel, strides=1, padding=2)
-out = topi.nn.relu(conv)
-with tvm.target.create('cuda'):
-    # 难道每种操作都有一个专门的调度
+with tvm.target.create("cuda"):
+    conv = topi.nn.conv2d(data, kernel, strides=1, padding=2, dilation=1)
+    out = topi.nn.relu(conv)
     sconv = topi.generic.nn.schedule_conv2d_nchw(out)
     print(tvm.lower(sconv, [data, kernel], simple_mode=True))

@@ -99,11 +99,7 @@ copy [蓝色大大](https://www.zhihu.com/people/lan-se-52-30/activities)在知�
 
 到这一步理解好以后，后续的TVM底层API大部分情况下你都不需要去动，包括后续的LLVM自动生成，优化等你也大部分不需要去动，因为类似CNN这样的网络，大部分你要做的工作就是在调度上，如何减少Cache Miss ，如何更好的让数据Locality是更关键的地方。
 
-
-
 到这一步以后，你可以再回过头去理解图优化的部分，如Operator Fusion / FoldScaleAxis等，以及包括TVM目前最核心最与众不同的地方: AutoTVM([https://docs.tvm.ai/tutorials/autotvm/tune_nnvm_arm.html#sphx-glr-tutorials-autotvm-tune-nnvm-arm-py](https://link.zhihu.com/?target=https%3A//docs.tvm.ai/tutorials/autotvm/tune_nnvm_arm.html%23sphx-glr-tutorials-autotvm-tune-nnvm-arm-py))，这是TVM去击败NCNN等用手写汇编的推理框架的关键一环，用机器学习去解决机器学习的问题，让你从调度参数的设置中解放出来，而专心写调度算法。这里面目前ARM CPU的调度算法并非是最优的，但是从测试来看，至少在测试中使用硬件和环境来看，已经超过能找到的推理框架。后续我将撰写一篇文章到TVM社区，将我在ARM CPU的工作写出来，这将改善目前ARM CPU的官方调度版本，这将在Mobilenet等模型中有很好的提升，敬请关注！
-
-
 
 TVM是很好的一个项目，这种基于编译优化思想的深度学习推理框架正是我赞同的，虽然还有很多工作需要做，但是我认为它已经走在一个很好的方向上了。
 
