@@ -3,14 +3,16 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.contrib.lite.python import interpreter as interpreter_wrapper
 
+
 def preprocess_image(image_file):
     resized_image = Image.open(image_file).resize((224, 224))
     image_data = np.asarray(resized_image).astype("float32")
-    image_data = np.expand_dims(image_data, axis = 0)
-    image_data[:,:,:,0] = 2.0 / 255.0 * image_data[:,:,:,0] - 1 
-    image_data[:,:,:,1] = 2.0 / 255.0 * image_data[:,:,:,1] - 1
-    image_data[:,:,:,2] = 2.0 / 255.0 * image_data[:,:,:,2] - 1
+    image_data = np.expand_dims(image_data, axis=0)
+    image_data[:, :, :, 0] = 2.0 / 255.0 * image_data[:, :, :, 0] - 1
+    image_data[:, :, :, 1] = 2.0 / 255.0 * image_data[:, :, :, 1] - 1
+    image_data[:, :, :, 2] = 2.0 / 255.0 * image_data[:, :, :, 2] - 1
     return image_data
+
 
 def run(model_file, image_data):
     interpreter = interpreter_wrapper.Interpreter(model_path=model_file)
@@ -30,6 +32,7 @@ def run(model_file, image_data):
 
     return tflite_output
 
+
 def post_process(tflite_output, label_file):
     # map id to 1001 classes
     labels = dict()
@@ -43,6 +46,7 @@ def post_process(tflite_output, label_file):
 
     # convert id to class name
     print("The image prediction result is: id " + str(prediction) + " name: " + labels[prediction])
+
 
 if __name__ == "__main__":
     image_file = 'cat.png'
