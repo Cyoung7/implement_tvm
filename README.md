@@ -115,6 +115,8 @@ TVM是很好的一个项目，这种基于编译优化思想的深度学习推�
 
 ##### python
 
+###### `/python/tvm/api.py`
+
 ```
 // tensor计算源语具体执行函数
 tvm.compute() --> src/api/api_lang.cc(TVM_REGISTER_API("_TensorComputeOp"),TVM_REGISTER_API("_ComputeOp"))
@@ -130,7 +132,7 @@ tvm.var() --> src/api/api_ir.cc(TVM_REGISTER_API("_Var"))
 tvm.placeholder() --> src/api/api_lang.cc(TVM_REGISTER_API("_Placeholder"))
 ```
 
-`tvm.build()`
+###### `/python/tvm/build_module.py`
 
 ```
 //从LowerFunc build成TVM底层runtime的Module
@@ -138,6 +140,7 @@ tvm.build() -->codegen.build_module（） --> src/api/api_codegen.cc(TVM_REGISTE
 ```
 
 ```
+/python/tvm/build_module.py
 //将schedule lower到 LowerFunc
 tvm.lower(sch) --> 
 {
@@ -146,23 +149,52 @@ ir_pass.MakeAPI(stmt) --> src/api/api_pass.cc(REGISTER_PASS5(MakeAPI))
 }
 ```
 
-`/python/tvm/Container.py`:
+###### `/python/tvm/Container.py`:
 
 Container data structures used in TVM DSL，传给runtime(Module)的计算流图, `TVM`层都是用`LoweredFunc` 进行代码生成，pass优化等
 
 ```
-// python/tvm/container.py
+/python/tvm/container.py
 class LoweredFunc(NodeBase) --> include/tvm/lowered_func.h(class LoweredFunc : public FunctionRef)
 ```
 
-`/python/tvm/schedule.py`
+###### `/python/tvm/schedule.py`
 
 对TVM做计算调度
 
 ```
-// python/tvm/schedule.py
 def create_schedule() --> src/api/api_lang.cc(TVM_REGISTER_API("_CreateSchedule"))
 ```
+
+```
+//
+@register_node
+class Schedule(NodeBase):
+```
+
+```
+//
+@register_node
+class Stage(NodeBase):
+
+def fuse(self, *args): --> src/api/api_lang.cc(TVM_REGISTER_API("_StageFuse"))
+```
+
+```
+//
+@register_node
+class Buffer(NodeBase)
+```
+
+###### `/python/tvm/expr.py`
+
+tvm层 Expressions的所有基类
+
+```
+
+```
+
+
 
 ##### pass
 
@@ -173,7 +205,8 @@ def create_schedule() --> src/api/api_lang.cc(TVM_REGISTER_API("_CreateSchedule"
 ##### codegen
 
 ```
-// src/codegen/codegen.cc 创建一个特定后端的runtime，供上层的tvm.build()调用
+// src/codegen/codegen.cc 
+// 创建一个特定后端的runtime，供上层的tvm.build()调用
 runtime::Module Build() --> runtime::Registry::Get(build_f_name)(得到特定后端的runtime)
 ```
 
@@ -184,15 +217,17 @@ src/codegen/opt/build_cuda_on.cc(TVM_REGISTER_API("codegen.build_cuda")),
 src/codegen/llvm/llvm_module.cc(TVM_REGISTER_API("codegen.build_llvm"))...
 }
 
-// src/runtime/regitry.cc，具体的注册类
+// src/runtime/regitry.cc
+// 具体的注册类
 Registry& Registry::Register()
 ```
 
 ##### runtime
 
 ```
-// src/runtime/graph/graph_runtime.cc,创建一个graph runtime(Wrapper runtime module)
-// tvm.build()根据已有的计算流图来创建一个特定后端的runtime(Module)，
+// src/runtime/graph/graph_runtime.cc
+// 创建一个graph runtime(Wrapper runtime module)
+// tvm.build()根据已有的计算流图来创建一个特定后端的runtime(Module)，create可以创建以空的runtime
 // python/contrib/graph_runtime.py
 def create() --> class GraphModule() --> src/runtime/graph/graph_runtime.cc(TVM_REGISTER_GLOBAL("tvm.graph_runtime.create"))
 ```
@@ -200,16 +235,18 @@ def create() --> class GraphModule() --> src/runtime/graph/graph_runtime.cc(TVM_
 TVM runtime的计算图(整个计算流程)都存储在 class Module(include/tvm/runtime/module.h)中
 
 ```
-// src/runtime/module.cc 创建一个runtime的功能函数
+// src/runtime/module.cc
+// 创建一个runtime的功能函数
 TVM_REGISTER_GLOBAL("module._LoadFromFile")...
 ```
 
-**runtime各个不同的后端target是提供runtime阶段，各个后端的一些功能函数，来达到创建对应后端runtime(Module)的目的**.
+**runtime各个不同的后端target是提供在runtime阶段，各个后端的一些功能函数，来达到创建对应后端runtime(Module)的目的**.
 
 例：
 
 ```
-//src/runtime/opengl/opengl_module.cc 提供loadfile_gl等功能函数
+//src/runtime/opengl/opengl_module.cc 
+// 提供loadfile_gl等功能函数，用这些后端创建runtime
 {
 TVM_REGISTER_GLOBAL("module.loadfile_gl")，
 TVM_REGISTER_GLOBAL("module.loadfile_glbin")，
@@ -218,7 +255,7 @@ TVM_REGISTER_GLOBAL("module.loadbinary_opengl")...
 //其他后端同理
 ```
 
-但是，tvm.build() 针对特定后端创建runtime(Module).是利用 src/codegen/codegen.cc 的 runtime::Module Build()函数，具体见上。
+但是，tvm.build() 也可以针对特定后端创建runtime(Module)
 
 #### relay
 
