@@ -1,2 +1,0 @@
-# tvm-tutorial
-TVM tutorial
