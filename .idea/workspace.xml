@@ -9,35 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2514ee-953f-4827-b2d0-f0775c23a758" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/implement_tvm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/implement_tvm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/compile_deep_learning_model/comliling_coreML_models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/compile_deep_learning_model/compile_tensorflow_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/compile_deep_learning_model/deplo_ single_shot_Multibox_detection_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/compile_deep_learning_model/get_star_with_nnvm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/compile_deep_learning_model/using_external_lib_in_nnvm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/developer_tutorials/low_level_custom_pass.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/get_started_with_tvm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/model/deploy_lib.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/oprimize_tensor_operators/how_to_optimize_conv_gpu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/oprimize_tensor_operators/opt_gemm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/quick_start_compliling_deep_learning_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/relay_compile_deep_learning_model/tensorflow/Compile_Tensorflow_Models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/relay_compile_deep_learning_model/tflite_toturial/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/relay_compile_deep_learning_model/tflite_toturial/mobilenet_v1_1.0_224.tflite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/relay_compile_deep_learning_model/tflite_toturial/run_tflite.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/relay_compile_deep_learning_model/tflite_toturial/run_tvm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/relay_quick_start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/tensor_expression_and_schedules/compute_reduce_with_tuple_inputs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/tensor_expression_and_schedules/external_tensor_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/tensor_expression_and_schedules/intrinsics_math_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/tensor_expression_and_schedules/reduction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/tensor_expression_and_schedules/scan_recurent_kernel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/tensor_expression_and_schedules/schedule_primitives_in_tvm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tvm_handson/toturial/topi/introduction_topi.py" beforeDir="false" />
-    </list>
+    <list default="true" id="8c2514ee-953f-4827-b2d0-f0775c23a758" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +32,7 @@
     <SUITE FILE_PATH="coverage/implement_tvm$intrinsics_math_function.coverage" NAME="intrinsics_math_function Coverage Results" MODIFIED="1534910715317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$scan_recurent_kernel.coverage" NAME="scan_recurent_kernel Coverage Results" MODIFIED="1534907887961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
     <SUITE FILE_PATH="coverage/implement_tvm$relay_quick_start.coverage" NAME="relay_quick_start Coverage Results" MODIFIED="1552792224548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/toturial" />
-    <SUITE FILE_PATH="coverage/implement_tvm$tune_relay_cuda.coverage" NAME="tune_relay_cuda Coverage Results" MODIFIED="1565006875923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorials/autotvm" />
+    <SUITE FILE_PATH="coverage/implement_tvm$tune_relay_cuda.coverage" NAME="tune_relay_cuda Coverage Results" MODIFIED="1565006973606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorials/autotvm" />
     <SUITE FILE_PATH="coverage/implement_tvm$how_to_optimize_conv_gpu.coverage" NAME="how_to_optimize_conv_gpu Coverage Results" MODIFIED="1552792385992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/toturial/oprimize_tensor_operators" />
     <SUITE FILE_PATH="coverage/implement_tvm$tune_conv2d_cuda.coverage" NAME="tune_conv2d_cuda Coverage Results" MODIFIED="1565006722391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorials/autotvm" />
     <SUITE FILE_PATH="coverage/implement_tvm$compliling_deep_learning_model.coverage" NAME="compliling_deep_learning_model Coverage Results" MODIFIED="1534773445761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvm_handson/tutorial" />
@@ -91,24 +63,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="expr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/relay/expr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="target.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/target.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5880">
-              <caret line="300" column="40" selection-start-line="300" selection-start-column="40" selection-end-line="300" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build_module.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/build_module.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,11 +94,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="tune_relay_cuda.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tune_relay_cuda.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tvm_handson/tutorials/autotvm/tune_relay_cuda.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+            <state relative-caret-position="288">
+              <caret line="222" column="45" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="45" />
               <folding>
                 <element signature="e#2357#2366#0" expanded="true" />
               </folding>
@@ -152,20 +106,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tensor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/tensor.py">
+      <file leaf-file-name="tune_relay_x86.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tvm_handson/tutorials/autotvm/tune_relay_x86.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2180">
-              <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="-272">
+              <caret line="169" column="12" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/_ffi/node.py">
+      <file leaf-file-name="build_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/relay/build_module.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1351641007/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="228">
+              <caret line="4244" column="6" selection-start-line="4244" selection-start-column="6" selection-end-line="4244" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="relay_integration.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/autotvm/task/relay_integration.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1456">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -445,20 +413,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002758" side_tool="true" weight="0.3444206" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.87749076" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87749076" weight="0.21244635" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32947233" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.499631" weight="0.32934928" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16094421" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81545067" visible="true" weight="0.19029233" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19849785" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81526107" visible="true" weight="0.19029233" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32984003" />
       <window_info anchor="right" id="SciView" order="3" weight="0.597048" />
-      <window_info id="Structure" order="1" sideWeight="0.18454936" side_tool="true" visible="true" weight="0.19029233" />
+      <window_info id="Structure" order="1" sideWeight="0.18473895" side_tool="true" visible="true" weight="0.19029233" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997242" weight="0.27091634" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -677,22 +644,6 @@ isinstance(libmod,Module)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/build_module.py" />
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/_ffi/base.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1351641007/_ctypes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/_ffi/_ctypes/function.py" />
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/_ffi/function.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/contrib/graph_runtime.py" />
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/_ffi/_ctypes/node.py" />
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.5.dev0-py3.6-linux-x86_64.egg/tvm/relay/op/transform.py" />
@@ -809,7 +760,7 @@ isinstance(libmod,Module)</expression-string>
     </entry>
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/target.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5880">
+        <state>
           <caret line="300" column="40" selection-start-line="300" selection-start-column="40" selection-end-line="300" selection-end-column="40" />
         </state>
       </provider>
@@ -849,13 +800,51 @@ isinstance(libmod,Module)</expression-string>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorials/autotvm/tune_relay_arm.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/autotvm/task/relay_integration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1456">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1351641007/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="4244" column="6" selection-start-line="4244" selection-start-column="6" selection-end-line="4244" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/relay/build_module.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorials/autotvm/resnet-18.log.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tvm_handson/tutorials/autotvm/tune_relay_cuda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+        <state relative-caret-position="288">
+          <caret line="222" column="45" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="45" />
           <folding>
             <element signature="e#2357#2366#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/tvm-0.6.dev0-py3.6-linux-x86_64.egg/tvm/autotvm/graph_tuner/pbqp_tuner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvm_handson/tutorials/autotvm/tune_relay_x86.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="169" column="12" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="12" />
         </state>
       </provider>
     </entry>
